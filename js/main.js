@@ -48,8 +48,12 @@ var writeFruit = function (fruit) {
     document.write('</dl>');
 };
 
-writeFruit (blueBerries);
-writeFruit (grapes);
-writeFruit (redCurrant);
+//writeFruit (blueBerries);
+//writeFruit (grapes);
+//writeFruit (redCurrant);
 
+
+var allFruit = [blueBerries, grapes, redCurrant];
+
+allFruit.forEach(writeFruit);
 

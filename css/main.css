@@ -4,4 +4,44 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
-html {}
+html {
+  box-sizing: border-box;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  background-color: #fff;
+  font: normal 100%/1.5 sans-serif;
+  font-family: 'Source Sans Pro', sans-serif; 
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #c1bdbf;
+    color: #484646;
+}
+
+h1 {
+    color: #c72d7b;
+    background-color: white;
+    text-align: center;
+    font-weight: 100;
+}
+
+dt {
+    font-weight: 400;
+    font-size: 1.25rem;
+    padding-left: 2em;
+}
+
+dd {
+    font-weight: 200;
+    padding-left: 3em;
+
+}
