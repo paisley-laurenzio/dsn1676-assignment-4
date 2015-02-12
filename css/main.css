@@ -34,14 +34,19 @@ h1 {
     font-weight: 100;
 }
 
+dl {
+    border-left: 1px solid;
+    margin: 2em;
+}
+
 dt {
     font-weight: 400;
     font-size: 1.25rem;
-    padding-left: 2em;
+    padding-left: 1em;
 }
 
 dd {
     font-weight: 200;
-    padding-left: 3em;
+    padding-left: 1.5em;
 
 }
