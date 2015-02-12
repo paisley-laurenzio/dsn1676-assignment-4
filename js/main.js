@@ -7,6 +7,7 @@ var blueBerries = {
     protein: '0.74 g'
 };
 
+
 var grapes = {
     name: 'Grapes',
     latinName: 'vinifera',
@@ -15,6 +16,7 @@ var grapes = {
     carbohydrates: '18.1 g',
     protein: '0.72 g'
 };
+
 
 var redCurrant = {
     name: 'Red Currant',
@@ -47,10 +49,6 @@ var writeFruit = function (fruit) {
     
     document.write('</dl>');
 };
-
-//writeFruit (blueBerries);
-//writeFruit (grapes);
-//writeFruit (redCurrant);
 
 
 var allFruit = [blueBerries, grapes, redCurrant];
